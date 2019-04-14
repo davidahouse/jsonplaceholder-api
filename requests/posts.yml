@@ -1,0 +1,13 @@
+openapi: 3.0.1
+info:
+  version: 1.0.0
+  title: JSONPlaceholder API
+  description: JSONPlaceholder API from https://jsonplaceholder.typicode.com
+paths:
+  /posts:
+    get:
+      operationId: posts
+      summary: Get the list of posts
+      responses:
+        '200':
+          description: Received the list of posts successfully

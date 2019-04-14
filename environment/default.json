@@ -1,0 +1,5 @@
+{
+  "HOST": "jsonplaceholder.typicode.com",
+  "PORT": "443",
+  "PROTOCOL": "https:"
+}

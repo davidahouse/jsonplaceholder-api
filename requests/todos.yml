@@ -1,0 +1,13 @@
+openapi: 3.0.1
+info:
+  version: 1.0.0
+  title: JSONPlaceholder API
+  description: JSONPlaceholder API from https://jsonplaceholder.typicode.com
+paths:
+  /todos:
+    get:
+      operationId: todos
+      summary: Get the list of todos
+      responses:
+        '200':
+          description: Received the list of todos successfully
