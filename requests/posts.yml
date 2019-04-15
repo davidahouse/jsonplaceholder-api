@@ -11,3 +11,10 @@ paths:
       responses:
         '200':
           description: Received the list of posts successfully
+  /posts/{postID}:
+    get:
+      operationId: getPost
+      summary: Get a single post by id
+      responses:
+        '200':
+          description: Received a single post
